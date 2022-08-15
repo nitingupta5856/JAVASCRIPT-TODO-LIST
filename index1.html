@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="heading">
+                <h5>MY TODOs</h5>
+            </div>
+            <button class="plus">+</button>
+        </header>
+        <main>
+            <!-- <div class="box">
+                <header>
+                    <div class="box-heading"></div>
+                    <div class="icon color-1">-</div>
+                    <div class="icon color-2">E</div>
+                    <div class="icon color-3">x</div>
+                </header>
+                <main>
+                    <textarea rows="15"></textarea>
+                </main>
+            </div> -->
+        </main>
+    </div>
+
+    <div>
+        <footer>
+            <div class="footer">
+                All rights reserved Nitin Gupta
+            </div>
+        </footer>
+    </div>
+    <div class="dialog">-
+        <div class="dialog-box">
+            <button class="cross">
+                <div>x</div>
+            </button>
+            <header style="color: black;">Add New Ticket</header>
+            <div>
+                <div>
+                    <input type="text" id="title" placeholder="Enter the title">
+                </div>
+                <div>
+                    <textarea rows="15" id='box-content' placeholder=""></textarea>
+                </div>
+                <button onclick="addTicket()">Add Ticket</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
